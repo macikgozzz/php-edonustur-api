@@ -1,0 +1,16 @@
+{
+    "name": "macikgozzz/edonustur-php-api",
+    "description": "e-donustur e-fatura php client",
+    "autoload": {
+        "psr-4": {
+            "Macikgozzz\\EdonusturPhpApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mami",
+            "email": "m.acikgoz25@gmail.com"
+        }
+    ],
+    "require": {}
+}
