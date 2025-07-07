@@ -9,7 +9,7 @@
     }],
     "autoload": {
         "psr-4": {
-            "Parasut\\": "src"
+            "Edonustur\\": "src"
         },
         "files": []
     },
