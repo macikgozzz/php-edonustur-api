@@ -1,16 +1,21 @@
 {
     "name": "macikgozzz/edonustur-php-api",
     "description": "e-donustur e-fatura php client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Muhammed AÇIKGÖZ",
+        "email": "m.acikgoz25@gmail.com"
+    }],
     "autoload": {
         "psr-4": {
-            "Macikgozzz\\EdonusturPhpApi\\": "src/"
-        }
+            "Parasut\\": "src"
+        },
+        "files": []
     },
-    "authors": [
-        {
-            "name": "mami",
-            "email": "m.acikgoz25@gmail.com"
-        }
-    ],
-    "require": {}
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "dev"
 }
